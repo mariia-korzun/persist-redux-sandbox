@@ -1,0 +1,19 @@
+.count {
+
+}
+
+.count__indicator {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(176, 67, 67);
+    border-radius: 50%;
+    line-height: 30vw;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    transition: 1s transform;
+    user-select: none;
+}
+
+.count__indicator__hovered {
+    transform: scale(1.3);
+}
